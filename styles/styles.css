@@ -30,6 +30,9 @@ body {
 .logoslog {
   color: var(--color-thirdary);
 }
+.logo:focus {
+  color: var(--color-primary);
+}
 
 .back-link {
   color: var(--color-thirdary);

@@ -37,6 +37,7 @@ h3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
+  
 }
 
 .feature-list {
@@ -58,6 +59,7 @@ p {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
+  text-decoration: none;
 }
 .subtitle {
   margin-top: 0px;
@@ -161,7 +163,6 @@ p {
 .adresse:focus {
   color: var(--color-thirdary);
 }
-
 
 /* Sectoin-hero */
 
@@ -269,7 +270,6 @@ p {
 
 .second-section {
   text-align: center;
-
 }
 .img-list {
   display: flex;
@@ -282,9 +282,15 @@ p {
   margin-right: 0px;
 }
 
+/* Section 3 */
 
-
-
+.Developer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--color-secondary);
+}
 .team {
   background: #f5f4fa;
 }
@@ -307,6 +313,10 @@ p {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  text-decoration: none;
+}
+.point a {
+  text-decoration: none;
 }
 
 /* FOOTER */
